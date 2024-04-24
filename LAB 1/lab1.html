@@ -1,0 +1,157 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+            <title>Lab 1</title>
+            <style>
+                body{
+                    margin: 0;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    background-image: url('photos/logo1.png');
+                    background-repeat: no-repeat;
+                    background-size: 700px 350px;
+                    background-attachment: fixed;
+                    background-position: center; 
+                    
+                }
+
+                header{
+                    width: 100%;
+                    text-align: center;
+                    background-color: #04364A;
+                    padding-top: 2px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    color: #fbecda;
+                }
+                span{
+                    display: flex;
+                    align-items: center;
+                }
+                .name{
+                    display: flex;
+                    margin-left: 20px;
+                }
+                .rollno{
+                    margin-right: 20px;
+                }
+                header div a{
+                    text-decoration: none;
+                    color: #fbecda;
+                }
+                header div a:hover{
+                    color: #BCA37F;
+                    font-weight: bold;
+                }
+                nav {
+                    width: 100%;
+                    display: flex;
+                    background: #427D9D;
+                    margin: 0;
+                    justify-content: right;
+                }
+                nav a {
+                    color: #DDF2FD;
+                    text-decoration: none;
+                    font-size: 17px;
+                    padding: 20px;
+                }
+                nav a:hover{
+                    font-weight: bold;
+                    background-color: #DDF2FD;
+                    color: #164863;
+                }
+                .section1{ 
+                    margin-left: 20%;
+                    margin-right: 20%;
+                    display: flex;
+                }
+                .rightdiv{
+                    flex: 30px;
+                }
+                .box{
+                    width: 90%;
+                    padding: 20px;
+                    border: 1px solid darkgray;
+                    border-radius: 6px;
+                    margin-bottom: 20px;
+                    display: flex;
+                }
+                footer{
+                    text-align: center;
+                    padding: 20px;
+                    background-color: #176B87;
+                    color: wheat;
+                }
+                li a{
+                    text-decoration: none;
+                    color: black;
+                }
+                </style>
+        </head>
+        <body> 
+            <header>
+                <div class = "name">
+                    <img src="photos/logo.png" style="width: 70px; height: 70px; padding: 5px;margin-right: 10px;">
+                    <h1>Pandit Deendayal Energy University</h1>
+                </div>
+                <div class = "rollno">
+                    <a href="Aashi Shah(21BIT269D) H2"><h1>Aashi Shah (21BIT269D)</h1></a>
+                </div>
+            </header>  
+            <nav>
+                <span>
+                    <a href="#">Department</a>
+                    <a href="#">Course Details</a>
+                    <a href="#">Faculties</a>
+                    <a href="#">Library</a>
+                </span>
+            </nav>
+            
+            <div class="section1" >
+                <div class="rightdiv">
+                        <div class="box" style="margin-top: 30px;"> 
+                        <h4>Courses</h4> 
+                        <ul>
+                            <br><br>
+                            <li><a href="#">Course 1</a></li>
+                            <li><a href="#">Course 2</a></li>
+                            <li><a href="#">Course 3</a></li>
+                            <li><a href="#">Course 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="box"> 
+                        <h4>Departments</h4> 
+                        <ul>
+                            <br><br>
+                            <li><a href="#">Department 1</a></li>
+                            <li><a href="#">Department 2</a></li>
+                            <li><a href="#">Department 3</a></li>
+                            <li><a href="#">Department 4</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box"> 
+                        <h4>Faculties</h4> 
+                        <ul>
+                            <br><br>
+                            <li><a href="#">faculty 1</a></li>
+                            <li><a href="#">faculty 2</a></li>
+                            <li><a href="#">faculty 3</a></li>
+                            <li><a href="#">faculty 4</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box"> 
+                        <h4>Library</h4>
+                        <p><br><br>Information about the library course here</p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                &copy; All rights reserved by Pandit Deendayal Energy University.
+            </footer>
+        </body>
+        </html>
